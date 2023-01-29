@@ -21,5 +21,3 @@ CREATE TABLE huespedes(
 	id_reserva INT NOT NULL,
 	PRIMARY KEY(id)
 )Engine=InnoDB;
-
-ALTER TABLE huespedes ADD FOREIGN KEY (id_reserva) REFERENCES reservas(id);
